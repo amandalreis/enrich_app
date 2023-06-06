@@ -59,7 +59,6 @@ class LoginScreen extends StatelessWidget {
                           width: 300,
                           child: TextField(
                             decoration: InputDecoration(
-                              fillColor: ,
                               focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
                               enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
