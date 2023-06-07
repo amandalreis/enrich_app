@@ -58,6 +58,7 @@ class LoginScreen extends StatelessWidget {
                       child: Container(
                           width: 300,
                           child: TextField(
+                            style: TextStyle(color: Colors.white,),
                             decoration: InputDecoration(
                               focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
                               enabledBorder: OutlineInputBorder(
@@ -69,12 +70,14 @@ class LoginScreen extends StatelessWidget {
                           )),
                     ),
 
-                    //Caixa Senhai
+                    //Caixa Senha
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Container(
                           width: 300,
                           child: TextField(
+                            obscureText: true,
+                            style: TextStyle(color: Colors.white,),
                             decoration: InputDecoration(
                               focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
                               enabledBorder: OutlineInputBorder(
@@ -86,7 +89,7 @@ class LoginScreen extends StatelessWidget {
                           )),
                     ),
 
-                    //botao
+                    //Botão Entrar
 
                     Padding(
                       padding: const EdgeInsets.all(10.0),
